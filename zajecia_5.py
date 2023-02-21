@@ -8,11 +8,15 @@ sequence = list(range(1,11))
 
 print(sequence)
 
-power = [i **4 for i in sequence if i%3 ==0]
+power = [i **4 for i in sequence if i % 3 ==0]
 print(power)
 
 powers=[[i, i **2, i **3] for i in sequence ]
 print(powers)
 
-for p in powers:
-    print(p)
+
+zeros = [[0 for i in range(8)] for i in range(8)]
+
+
+for zero in zeros:
+    print(zeros)
