@@ -28,3 +28,17 @@ print(dc1)
 
 print()
 print(dc2)
+print()
+for key,value in dc1.items():
+    print(f"klucz: {key}, wartość: {value}")
+print()
+for key in dc1.keys():
+    print(key)
+print()
+for value in dc1.values():
+    print(value)
+print()
+for k in dc1:
+    print(k,end=",")
+
+
