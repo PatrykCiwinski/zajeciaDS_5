@@ -20,3 +20,13 @@ zeros = [[0 for i in range(8)] for i in range(8)]
 
 for zero in zeros:
     print(zeros)
+
+letters = ['a','b','y','v','o','y']
+print(letters[:3])
+#the same as print(letters[0:3])
+
+print(letters[::-1])
+#the same
+print(list(reversed(letters)))
+
+print(letters[-2::-1])
