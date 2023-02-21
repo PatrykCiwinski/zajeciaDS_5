@@ -21,7 +21,7 @@ print()
 print(dc)
 dc1=dict(zip([i for i in range(1,11)],('abcdefghij')))
 
-dc2={k+10:v for (k,v) in dc1.items()}
+dc2={k+10:v*2 for (k,v) in dc1.items() if v in['a','e','i','o']}
 
 print()
 print(dc1)
